@@ -1,0 +1,123 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body, html {
+    height:100%;
+    background-color: #10141b;   
+    font-family:'Poppins', cursive;
+  }
+  
+  @media screen and (max-width: 760px) {
+  
+    .row-offcanvas {
+      position: relative;
+      
+    }
+
+    .card_group{
+      width: 70%;
+    }
+  
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+      left: -33%;
+    }
+  
+    .row-offcanvas-left.active {
+      left: 33%;
+      margin-left: -6px;
+    }
+  
+    .sidebar-offcanvas {
+      position: absolute;
+      top: 0;
+      width: 33%;
+      height: 100%;
+    }
+  }
+
+
+  
+  /*
+   * Off Canvas wider at sm breakpoint
+   * --------------------------------------------------
+   */
+  @media screen and (max-width: 34em) {
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+      left: -45%;
+    }
+  
+    .row-offcanvas-left.active {
+      left: 45%;
+      margin-left: -6px;
+    }
+    
+    .sidebar-offcanvas {
+      width: 45%;
+    }
+  }
+  
+ 
+  
+    
+    .navbar{
+    background-color: #10141b;
+    }
+
+    #sidebar{
+    background-color: #10141b;
+    }
+
+    #main_background{
+    background-color: rgb(36,38,51);
+    padding: 3%;
+    color: white;
+    }
+ 
+    .card_group{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        /* width: 100%; */
+        background:rgb(31, 30, 30);
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+    
+    .footer{
+        background-color: #10141b;
+        padding: 1%;
+        color: white;
+    }
+
+    .nav-link{
+        color: white;
+        
+    }
+
+    .admin_img{
+      text-align: right;
+
+    }
+
+    .admin_pro{
+      width: 5%;
+      height: 100%;
+    }
+
+    .formmodal{
+      padding: 2%;
+      color: black;
+    }
+
+   .quizimage img {
+      width: 100%;
+      height: 200px;
+      max-height: 200px;
+    }
+
+    .nav-item h2{
+      margin-top:10% ;
+    }
+
+   
